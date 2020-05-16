@@ -1,0 +1,116 @@
+<!-- 주석 (comments) : 컴퓨터는 인식하지 않는 프로그래머간 소통을 위해 쓰는 장치 -->
+<!-- <DOCTYPE html>은 브라우저(기계)에게 몇 버전의 html을 쓸건지 알려주는 문서 타입 정의(DTD) -->
+<!-- 이 것을 명시하지 않거나 잘못된 버전을 명시 할 경우 정상적으로 렌더링 되지 않음 -->
+<!DOCTYPE html>
+<html lang="en">
+  <!-- head는 브라우저의 화면에서 표시되지 않지만 브라우저에게 문서의 정보를 전달하는 역할을 함 -->
+
+  <head>
+    <!-- meta는 html에서 쓰는 정보들을 기록 -->
+    <!-- cahrset은 문자열을 어떤 유형을 쓸지 정하는것 -->
+    <!-- UTF-8은 문자열 인코딩중 하나로 한글과 영문 특수문자를 쓸 수 있는 것 -->
+    <meta charset="UTF-8" />
+    <!-- viewport는 디바이스에서 어떻게 표기할지 나타내는것 -->
+    <!-- width=device-width는 디바이스 너비만큼 너비를 정하겠다. -->
+    <!-- initial-scale 1배율로 보여주겠다. -->
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
+    <title>이근환 바보</title>
+    <style>
+      .studyTitle {
+        color: red;
+      }
+
+      .normalTitle1,
+      .normalTitle1 a {
+        color: orange;
+      }
+
+      .normalTitle2 {
+        color: yellow;
+      }
+
+      .normalTitle3 {
+        color: green;
+      }
+
+      .normalTitle4 {
+        color: blue;
+      }
+
+      .normalTitle5 {
+        color: navy;
+      }
+
+      .normalTitle6 {
+        color: purple;
+      }
+
+      section p {
+        font-size: 14px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- 제목류 -->
+    <!-- headline : h1 ~ h6까지 제목 -->
+    <!-- h1 : 대제목 -->
+    <h1 class="studyTitle">MINJI's html</h1>
+    <section class="normalTitle1">
+      <h1>headline 1</h1>
+      <p>
+        Lorem ipsum
+        <a href="https://www.class101.net" target="_blank">dolor</a>
+        sit, amet consectetur adipisicing elit. Nulla quae veritatis nobis
+        architecto officiis! Officiis odit laboriosam soluta at. Maxime esse
+        doloremque repellendus, voluptatum error eaque ducimus nesciunt tenetur
+        laborum.
+      </p>
+    </section>
+    <section class="normalTitle2">
+      <h2>headline 2</h2>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla quae
+        veritatis nobis architecto officiis! Officiis odit laboriosam soluta at.
+        Maxime esse doloremque repellendus, voluptatum error eaque ducimus
+        nesciunt tenetur laborum.
+      </p>
+    </section>
+    <section class="normalTitle3">
+      <h3>headline 3</h3>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla quae
+        veritatis nobis architecto officiis! Officiis odit laboriosam soluta at.
+        Maxime esse doloremque repellendus, voluptatum error eaque ducimus
+        nesciunt tenetur laborum.
+      </p>
+    </section>
+    <section class="normalTitle4">
+      <h4>headline 4</h4>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla quae
+        veritatis nobis architecto officiis! Officiis odit laboriosam soluta at.
+        Maxime esse doloremque repellendus, voluptatum error eaque ducimus
+        nesciunt tenetur laborum.
+      </p>
+    </section>
+    <section class="normalTitle5">
+      <h5>headline 5</h5>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla quae
+        veritatis nobis architecto officiis! Officiis odit laboriosam soluta at.
+        Maxime esse doloremque repellendus, voluptatum error eaque ducimus
+        nesciunt tenetur laborum.
+      </p>
+    </section>
+    <section class="normalTitle6">
+      <h6>headline 6</h6>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla quae
+        veritatis nobis architecto officiis! Officiis odit laboriosam soluta at.
+        Maxime esse doloremque repellendus, voluptatum error eaque ducimus
+        nesciunt tenetur laborum.
+      </p>
+    </section>
+  </body>
+</html>

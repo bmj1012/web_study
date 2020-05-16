@@ -1,0 +1,74 @@
+p.subtext {
+  font-size: 15px;
+  line-height: 7px;
+}
+/* 백그라운드 이미지 영역 */
+section.background-container {
+  /* section.background-container를 위한 CSS */
+  width: 640px;
+  height: 853px;
+  background-image: url("https://images.unsplash.com/photo-1525183995014-bd94c0750cd5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  /* color-group을 위한 CSS */
+  /* 수직, 수평 가로 정렬 */
+  display: flex;
+  flex-direction: row;
+  /* flex-direction: row; 일 때 수직 
+            flex-direction: column; 일 때 수평*/
+  justify-content: center;
+  /* flex-direction: row; 일 때 수평 
+            flex-direction: column; 일 때 수직*/
+  align-items: center;
+}
+/* 이미지 안 개체를 위한 영역 */
+.background-container .color-group .text {
+  margin-top: 30px;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+
+  display: flex;
+}
+/* 로고 영역 */
+.background-container .color-group .text .R-logo {
+  font-size: 15px;
+  margin-left: 5px;
+}
+/* 컬러박스 정렬 */
+.background-container .color-group .colors {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* 컬러박스 사이즈 지정 */
+.background-container .color-group .colors div {
+  width: 60px;
+  height: 60px;
+  background-color: black;
+}
+
+/* 컬러 값 지정을 위한 영역 */
+.background-container .color-group .colors .lightSeaGreen {
+  background-color: #17bcbe;
+}
+
+.background-container .color-group .colors .midnightBlue {
+  background-color: #0c4f51;
+}
+
+.background-container .color-group .colors .lightGrey {
+  background-color: #d2ccc9;
+}
+
+.background-container .color-group .colors .slateGray {
+  background-color: #6f7975;
+}
+
+.background-container .color-group .colors .darkOliveGreen {
+  background-color: #734842;
+}
